@@ -10,9 +10,12 @@ const Jobs = () => {
   useEffect(() => {
     try {
       axios
-        .get("https://job-seeking-backend-six.vercel.app//api/v1/job/getall", {
-          withCredentials: true,
-        })
+        .get(
+          "https://job-seeking-backend-4typ.onrender.com/api/v1/job/getall",
+          {
+            withCredentials: true,
+          }
+        )
         .then((res) => {
           setJobs(res.data);
         });

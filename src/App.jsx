@@ -23,7 +23,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://job-seeking-backend-six.vercel.app//api/v1/user/getuser",
+          "https://job-seeking-backend-4typ.onrender.com/api/v1/user/getuser",
           {
             withCredentials: true,
           }
